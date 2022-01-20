@@ -22,8 +22,10 @@ namespace _06_ByteBank
             }
         }
         
-        public int agencia;
-        public int numero;
+        public int Agencia { get; set; }
+        public int Numero { get; set; }
+        
+  
         private double _saldo = 100;
 
         public double Saldo
