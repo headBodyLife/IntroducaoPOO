@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_ByteBank", "_01_ByteBank\_01_ByteBank.csproj", "{B496CE34-EC05-4005-B16B-5962E42B09CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_ByteBank", "_02_ByteBank\_02_ByteBank.csproj", "{F4DD5002-86A8-4D64-8DEC-1B844D4A9849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B496CE34-EC05-4005-B16B-5962E42B09CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B496CE34-EC05-4005-B16B-5962E42B09CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B496CE34-EC05-4005-B16B-5962E42B09CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DD5002-86A8-4D64-8DEC-1B844D4A9849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DD5002-86A8-4D64-8DEC-1B844D4A9849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DD5002-86A8-4D64-8DEC-1B844D4A9849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DD5002-86A8-4D64-8DEC-1B844D4A9849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

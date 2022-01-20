@@ -1,0 +1,6 @@
+/home/allan/docs/C#/alura/IntroducaoPOO/_02_ByteBank/bin/Debug/_02_ByteBank.exe
+/home/allan/docs/C#/alura/IntroducaoPOO/_02_ByteBank/bin/Debug/_02_ByteBank.pdb
+/home/allan/docs/C#/alura/IntroducaoPOO/_02_ByteBank/obj/Debug/_02_ByteBank.csprojAssemblyReference.cache
+/home/allan/docs/C#/alura/IntroducaoPOO/_02_ByteBank/obj/Debug/_02_ByteBank.csproj.CoreCompileInputs.cache
+/home/allan/docs/C#/alura/IntroducaoPOO/_02_ByteBank/obj/Debug/_02_ByteBank.exe
+/home/allan/docs/C#/alura/IntroducaoPOO/_02_ByteBank/obj/Debug/_02_ByteBank.pdb
