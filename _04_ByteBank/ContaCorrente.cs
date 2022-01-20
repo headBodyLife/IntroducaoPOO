@@ -19,4 +19,9 @@ public class ContaCorrente
             return true;
         }
     }
+
+    public void Depositar(double valor)
+    {
+        this.saldo += valor;
+    }
 }
