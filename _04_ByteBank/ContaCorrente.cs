@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.Design;
 
 public class ContaCorrente
@@ -12,16 +13,32 @@ public class ContaCorrente
         if (this.saldo < valor)
         {
             return false;
+            //Return quando executado finaliza o método
         }
-        else
-        {
-            this.saldo -= valor;
-            return true;
-        }
+        
+        this.saldo -= valor;
+        Console.WriteLine("Efeutado saque de: "+valor);
+        return true;
+        
     }
 
     public void Depositar(double valor)
     {
         this.saldo += valor;
+        Console.WriteLine("Deposito Efetuado.");
+    }
+
+    public bool Transferir(double valor, ContaCorrente contaDestino)
+    {
+        if (this.saldo < valor)
+        {
+            return false;
+        }
+       
+        this.saldo -= valor;
+        contaDestino.Depositar(valor);
+        Console.WriteLine("Depositado {0} para conta de {1}",valor,contaDestino.titular);
+        return true;
+        
     }
 }
