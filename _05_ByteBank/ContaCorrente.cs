@@ -6,7 +6,7 @@ namespace _05_ByteBank
 {
     public class ContaCorrente
     {
-        public Cliente titular;
+        public Cliente titular; //vai receber a instancia com todos atributos por referencia
         public int agencia;
         public int numero;
         public double saldo = 100;
