@@ -9,7 +9,7 @@ namespace _07_ByteBank
     public class ContaCorrente
     {
         private Cliente _titular; //vai receber a instancia com todos atributos por referencia
-
+        
         public Cliente Titular
         {
             get
@@ -22,6 +22,9 @@ namespace _07_ByteBank
             }
         }
 
+        public static int TotalDeContasCriadas { get; private set; }
+
+      
         private int _agencia;
 
         public int Agencia
@@ -67,6 +70,8 @@ namespace _07_ByteBank
         {
             Agencia = agencia;
             Numero = numero;
+
+            ContaCorrente.TotalDeContasCriadas++;
         }
    
         public bool Sacar(double valor)
